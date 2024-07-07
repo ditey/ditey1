@@ -19,7 +19,7 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="">
-  <div class="cf-turnstile" data-sitekey="0x4AAAAAAAelA60uDAAQmiz8" data-callback="javascriptCallback"></div>
+
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -32,7 +32,8 @@
 
   <title>Facebook Support</title>
   <link rel="manifest" href="manifest.json">
-
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <div class="cf-turnstile" data-sitekey="your-site-key"></div>
   <script>
     // The value below is injected by flutter build, do not touch.
     const serviceWorkerVersion = "2655113037";
